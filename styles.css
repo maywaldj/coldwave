@@ -1,0 +1,74 @@
+@font-face {
+    font-family: NeueHaas;
+    src: url(/assets/NeueHaasGrotText-65Medium-Trial.otf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    font-family: 'NeueHaas';
+    
+}
+
+body {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#nav-logo {
+    width: 150px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+#buster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+#buster > h1 {
+    text-align: center;
+}
+
+#plagiarise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-height: 100vh;
+    color: white;
+}
+#plagiarise > h1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#plagiarise-video {
+    overflow: hidden;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit:cover;
+}
